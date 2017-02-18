@@ -1,0 +1,25 @@
+body {
+    margin-top: 36px;
+}
+
+.runas_banner_warning {
+    z-index: 99999;
+    position: fixed; top: 0; left: 0; right: 0;
+    height: 24px;
+    width: 100%;
+    border-bottom: 2px solid #ae9e49;
+    padding: 5px;
+
+    background-size: 50px 50px;
+    background-color: #ffe761;
+    color: #000;
+    background-image: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, .04) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .04) 50%, rgba(0, 0, 0, .04) 75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(-45deg, rgba(0, 0, 0, .04) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .04) 50%, rgba(0, 0, 0, .04) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, .04) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .04) 50%, rgba(0, 0, 0, .04) 75%, transparent 75%, transparent);
+}
+
+.runas_banner_warning p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}

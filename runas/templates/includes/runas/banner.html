@@ -1,0 +1,9 @@
+{% load staticfiles %}
+
+{% if runas_active %}
+<link rel="stylesheet" href="{% static "css/runas.css" %}">
+<div class="runas_banner_warning">
+    <p><strong>WARNING:</strong> You are currently impersonating <strong>{{ impersonated_user }}</strong>.
+    <a href="{% url 'runas:exit' %}">Exit this mode</a></p>
+</div>
+{% endif %}
