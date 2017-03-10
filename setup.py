@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='django-runas',
-    version='0.1.0',
+    version='0.1.2',
     license='BSD',
     author='Sam Kingston',
     author_email='sam@sjkwi.com.au',
