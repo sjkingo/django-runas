@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3 - 2017-03-22
+
+* Add Django as dependency to setuptools
+
 ## 0.1.2 - 2017-03-10
 
 * Fix urlpattern error that prevent user id's with more than one digit matching
