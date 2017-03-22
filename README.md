@@ -2,6 +2,10 @@
 
 Impersonate a user using the Django admin.
 
+[![Latest version](https://img.shields.io/pypi/v/django-runas.svg)](https://pypi.python.org/pypi/django-runas)
+[![Python support](https://img.shields.io/pypi/pyversions/django-runas.svg)](https://github.com/sjkingo/django-runas)
+[![BSD License](https://img.shields.io/pypi/l/django-runas.svg)](https://pypi.python.org/pypi/django-runas)
+
 ## Installation and configuration
 
 1. `$ pip install django-runas`
