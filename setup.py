@@ -10,6 +10,7 @@ setup(
     url='https://github.com/sjkingo/django-runas',
     packages=find_packages(),
     include_package_data=True,
+    install_requires=['Django>=1.8'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
